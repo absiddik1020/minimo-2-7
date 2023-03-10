@@ -1,0 +1,293 @@
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+/* common start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common end */
+
+/* header start */
+
+header{
+    padding: 25px 0;
+    
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.logo{
+    width: 10%;
+    margin-top: 14px;
+    float: left;
+
+}
+
+.logo a img{
+    width: 100%;
+}
+
+.menu{
+    width: 70%;
+    float: right;
+   
+}
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0px 70px;
+    padding: 2px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+  
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+
+.menu ul li a:last-child{
+    margin-right: 0px;
+}
+
+/* header end */
+
+/* bannar start */
+
+.b_content img{
+    width: 100%;
+} 
+/* bannar end */
+
+/* getaway start */
+
+.getaway{
+    padding: 70px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+.c_light{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.c_title{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+.c_text{
+    margin: 0;
+    line-height: 25px;
+}
+
+.m_tb_20_30{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.m_b_45{
+    margin-bottom: 45px;
+}
+
+/* blog start */
+.blog{
+    padding: 70px 0 10px;
+   
+}
+.blog_contant{
+    overflow: hidden;
+}
+.single_blog{
+    width: 47%;
+    margin-bottom: 60px;
+    float: left;
+   
+    
+}
+.single_blog:nth-child(even){
+    margin-left: 6%;
+}
+
+.s_img{
+    margin-bottom: 25px;
+}
+.s_img img{
+    width: 100%;
+}
+
+.mt_2535{
+    margin: 25px 0 35px;
+}
+/* blog end */
+
+/* mews start */
+.news{
+    
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.singup{
+    text-align: center;
+}
+
+.s_h1{
+    margin: 0 0 70px;
+    color: #333333;
+}
+.s_form{
+    position: relative;
+    width: 420px;
+    margin: 0 auto;
+   
+}
+.s_form input{
+    width: 395px;
+    height: 36px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
+    border: none;
+    border-bottom: 2px solid #626262;
+    background-color: transparent;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.s_form input:focus{
+    outline: 0;
+}
+
+.s_form button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 11px;
+    right: 0;
+}
+
+.s_form button:focus{
+    outline: 0;
+}
+.blog_button{
+    margin: 130px 0;
+    text-align: center;
+}
+.blog_button button{
+    width: 162px;
+    height: 63px;
+    border: 1px solid #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    background-color: transparent;
+   
+}
+.blog_button button:hover{
+    background-color: #626262;
+    color:#f0f0f0;
+}
+/* mews end */
+/* footer start */
+footer{
+    background-color: #f0f0f0;
+    padding: 15px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.Terms{
+    width: 30%;
+    float: left;
+}
+.Terms ul{
+
+}
+.ul_c{
+    margin: 0;
+    padding: 15px 0;
+}
+
+
+
+.Terms ul li{
+    list-style: none;
+    float: left;
+}
+.Terms ul li a{
+    margin: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+}
+.Terms ul li :first-child a{
+    margin-left: 0;
+}
+
+.Follow{
+    width: 30%;
+    float: right;
+    
+}
+.Follow ul{
+    float: right;
+}
+.ul_c{
+    margin: 0;
+    padding: 15px 0;
+}
+.Follow ul li span{
+    color:#000000;
+}
+
+
+.Follow ul li{
+   list-style: none;
+   float: left;
+}
+.Follow ul li a{
+    margin: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;;
+}
+
+.follow ul li a:last-child a {
+    margin-right: 0;
+}
+/* footer end */
+
+
+
